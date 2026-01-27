@@ -41,7 +41,21 @@ footer {
     border-bottom: 30px solid #E8A062;
     border-radius: 30px;
 }
-main .debut {
+p{
+    color: black;
+}
+ul.ingredients{
+    list-style: none;
+    margin: 40px auto;
+    max-width: 95%;
+    padding: 0;
+}
+.ingredients li {
+    color: white;
+    padding: 10px 40px;
+    background-color: #E8A062;
+}
+.debut p{
     font-size: 1.3rem;
     font-style: italic;
     text-transform: uppercase;
