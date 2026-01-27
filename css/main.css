@@ -25,3 +25,24 @@ a {
 a:hover {
     color: darkmagenta;
 }
+header {
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+}
+footer {
+    background-color: #823922;
+    color: white;
+    padding:10px;
+    margin:auto;
+    text-align: center;
+    max-width: 400px;
+    border-top: 30px solid #E8A062;
+    border-bottom: 30px solid #E8A062;
+    border-radius: 30px;
+}
+main .debut {
+    font-size: 1.3rem;
+    font-style: italic;
+    text-transform: uppercase;
+}
