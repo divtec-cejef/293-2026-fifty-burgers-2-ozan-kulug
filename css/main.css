@@ -3,7 +3,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: verdana, sans-serif;
     font-weight: 400;
     font-size: 1.2rem;
     line-height: 1.4;
@@ -18,12 +18,12 @@ img {
 }
 
 a {
-    color: green;
+    color: #00a24b;
     text-decoration: none;
 }
 
 a:hover {
-    color: beige;
+    color: #E8A062;
 }
 h1,h2{
     font-family: georgia, serif;
@@ -41,6 +41,9 @@ header {
     text-align: center;
     background-color: black;
     padding: 10px;
+}
+header img{
+    max-width: 160px;
 }
 footer {
     background-color: #823922;
@@ -71,4 +74,9 @@ ul.ingredients{
     font-size: 1.3rem;
     font-style: italic;
     text-transform: uppercase;
+}
+main{
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
 }
